@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        BankAccount obj1 = new BankAccount("abcedfghi", "987654321");
+        BankAccount obj1 = new BankAccount("abcedfghi", "123456789");
         obj1.showMenu();
     }
 }
@@ -42,7 +42,7 @@ public class Main {
             System.out.println("Withdrawn: "+Math.abs(previousTransaction));
         }
         else {
-            System.out.println("No transaction occured");
+            System.out.println("No transaction occurred");
         }
     }
 
@@ -109,7 +109,7 @@ public class Main {
             }
 
         } while(option != '5');
-        
+
         System.out.println("Thank you for using our services");
     }
  }
